@@ -1,0 +1,30 @@
+ <a
+            href="https://bobs-burgers.fandom.com/wiki/Tina_Belcher"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read More
+          </a>
+
+          <div class="card" style="width: 18rem;">
+  <img src={ character.image } class="card-img-top" alt={ character.name }>
+  <div class="card-body">
+    <h5 class="card-title">{ character.name }</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
+
+<div className="card">
+        <div className="card-image">
+            <img
+             src={ character.image }  alt={ character.name}
+             width= "200px"
+             height= "300px" 
+             padding= "10px"
+            />
+            
+        </div>
+        <div className="card-title">
+      <h3>{ character.name }</h3>
+    </div>
+  </div>
