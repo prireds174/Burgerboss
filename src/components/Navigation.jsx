@@ -28,8 +28,10 @@ function Navigation(props) {
       </Link>
     
   </li>
-  <li className="nav-item"className="nav-link"> 
+  <li className="nav-item"className="nav-link">
+    <a href="https://screenrant.com/which-bobs-burgers-character-are-you-based-on-zodiac/">
   What Character are You?
+  </a>
   </li>
 </ul>
 
