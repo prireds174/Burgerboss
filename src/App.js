@@ -27,9 +27,13 @@ function App() {
           <Route path="/exterminatordetails/:id" element={<ExterminatorDetails /> } />
         </Routes>
       </main>
+      <div className='footer'>
+        potato
+      </div>
       
       
     </div>
+    
   );
 }
 

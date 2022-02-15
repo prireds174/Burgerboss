@@ -1,0 +1,13 @@
+.homepage{
+background-image: url(./images/sittingstools.jpg) ;
+text-align: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 50vh;
+  display: flex ;
+  
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
