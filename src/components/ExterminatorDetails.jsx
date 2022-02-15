@@ -25,9 +25,12 @@ useEffect(()=>{
           alt={exterminator.name}
         />
         <div className="details">
+          <h2>Name:</h2>
           <h2>{exterminator.name}</h2>
+          <br></br>
+          <h3>Season Appearance:</h3>
           <h3>{exterminator.season}</h3>
-          <h3>{exterminator.episode}</h3>
+          
 
         
         </div>

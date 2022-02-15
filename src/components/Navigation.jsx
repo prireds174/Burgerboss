@@ -8,7 +8,7 @@ function Navigation(props) {
         <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
       <Link to="/home" className="navbar-brand">
-      <img src="https://a.thumbs.redditmedia.com/f5GxaATVn5u-M6Nz5r6pNHcf8bpW7bLhjheBKv-BnS0.png" alt="" width="30" height="24" className="d-inline-block text-center"/> Belcher Index
+      <img src="https://a.thumbs.redditmedia.com/f5GxaATVn5u-M6Nz5r6pNHcf8bpW7bLhjheBKv-BnS0.png" alt="" width="30" height="24" className="d-inline-block text-center"/> Between the Buns
 
     </Link>
     
@@ -30,7 +30,7 @@ function Navigation(props) {
   </li>
   <li className="nav-item"className="nav-link">
     <a href="https://screenrant.com/which-bobs-burgers-character-are-you-based-on-zodiac/">
-  What Character are You?
+  Which Character are You?
   </a>
   </li>
 </ul>
