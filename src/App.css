@@ -112,10 +112,3 @@ nav.image{
   font-size: 15px;
 }
 
-.footer{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1030; 
-}
