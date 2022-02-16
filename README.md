@@ -1,5 +1,5 @@
+## Between the Buns
 ## Project Description 
->Between the Buns
 > A place where new or old, Bob's Burgers fans can come to learn more about the Character's. Users will see a list of Character's Image then click on image to see more details. Presently app only holds Characters, in the future I would like to implement quotes or notable dialogue on the Character's Page.
 
 ## Link to the API you plan to use
