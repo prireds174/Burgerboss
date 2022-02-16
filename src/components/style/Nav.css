@@ -9,6 +9,10 @@ a {
 a:hover {
     color: rgba(186, 218, 153, 0.756);
 }
+
+h4 {
+    text-align: center;
+}
 .nav-link {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -20,3 +24,7 @@ a:hover {
     color: rgba(186, 218, 153, 0.756);
 }
 
+.homebody{
+    margin: 15px;
+    padding-top: 5px;
+}

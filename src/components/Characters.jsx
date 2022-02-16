@@ -21,7 +21,7 @@ function Characters(){
 
     return(
         <div>
-            <h1><img src="https://fontmeme.com/permalink/220216/436499906becfd47d799c14f0df39a93.png" alt="bobs-burgers-tv-show-font" border="0"/></h1>
+            <h1 className="charactitle"><img src="https://fontmeme.com/permalink/220216/436499906becfd47d799c14f0df39a93.png" alt="bobs-burgers-tv-show-font" border="0"/></h1>
 <section className="container">
     {
     characters.map((character) => {
