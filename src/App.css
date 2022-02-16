@@ -46,11 +46,12 @@ nav.image{
 }
 
 .card {
-  border: 1px solid lightgray;
   border-radius: 1rem;
   display: grid;
   grid-template-rows: 2fr 1fr;
+  
 }
+
 .card-image.image{
   width: 200px;
   height: 300px; 
@@ -64,12 +65,14 @@ nav.image{
 }
 
 .card-title {
-  background-color: #91b1f5;
-  color: white;
+  background-color: transparent;
+  color: black;
   border-radius: 0 0 1rem 1rem;
   margin: 0;
   padding: 1rem;
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
 }
 
 .card-title h3 {
