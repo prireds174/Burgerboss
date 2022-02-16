@@ -1,15 +1,18 @@
 import {Link} from 'react-router-dom'
+import "./Nav.css"
 
 
 function Navigation(props) {
     
     return (
         <>
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar navbar-light">
         <div className="container-fluid">
       <Link to="/home" className="navbar-brand">
-      <img src="https://a.thumbs.redditmedia.com/f5GxaATVn5u-M6Nz5r6pNHcf8bpW7bLhjheBKv-BnS0.png" alt="" width="30" height="24" className="d-inline-block text-center"/> Between the Buns
-
+      
+      <a href="https://fontmeme.com/bobs-burgers-tv-show-font/"><img src="https://fontmeme.com/permalink/220216/35ae46a0faf484314bf9ce88a61f3374.png" alt="bobs-burgers-tv-show-font" border="0" style={{
+        paddingLeft:"25px",
+        paddingBottom: "65px"}}/></a>
     </Link>
     
   </div>
@@ -17,6 +20,13 @@ function Navigation(props) {
 
 
 <ul className="nav bg-dark bg-gradient justify-content-center">
+<li className="nav-item">
+      <Link to="/home"className="nav-link"><img src="https://a.thumbs.redditmedia.com/f5GxaATVn5u-M6Nz5r6pNHcf8bpW7bLhjheBKv-BnS0.png" alt="" width="25" height="15" style={{
+        paddingRight:"15px"}} className="d-inline-block text-center"/>Home
+      </Link>
+    
+  </li>
+
   <li className="nav-item">
       <Link to="/characters" className="nav-link active text" aria-current="page">
           Characters

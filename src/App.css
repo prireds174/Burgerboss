@@ -17,9 +17,12 @@ h1 {
 }
 
 nav {
-  background-color: black;
+  background-image: url("/src/images/bburger2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  padding: 1px;
+  padding: 2px;
+  height: 380px;
 }
 
 nav.image{
