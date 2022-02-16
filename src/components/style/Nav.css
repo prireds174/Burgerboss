@@ -6,9 +6,17 @@ a {
     color:white
 }
 
+a:hover {
+    color: rgba(186, 218, 153, 0.756);
+}
 .nav-link {
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: 'Amatic SC', cursive;
     font-size: 23px;
 }
+
+.nav-link:hover{
+    color: rgba(186, 218, 153, 0.756);
+}
+

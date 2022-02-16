@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from 'react-router-dom'
-import './Character.css'
+import './style/Character.css'
 
 function Characters(){
     const[characters, setCharacters] = useState([])
@@ -21,7 +21,7 @@ function Characters(){
 
     return(
         <div>
-            <h1>Characters</h1>
+            <h1><img src="https://fontmeme.com/permalink/220216/436499906becfd47d799c14f0df39a93.png" alt="bobs-burgers-tv-show-font" border="0"/></h1>
 <section className="container">
     {
     characters.map((character) => {
