@@ -20,7 +20,7 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/home" element={< Home /> } />
+          <Route path="/" element={< Home /> } />
           <Route path="/characters" element={< Characters /> } />
           <Route path="/charactersdetails/:id" element= { <CharacterDetails/> } />
           <Route path="/exterminators" element={< Exterminators /> } />

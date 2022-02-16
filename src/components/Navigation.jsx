@@ -8,7 +8,7 @@ function Navigation(props) {
         <>
         <nav className="navbar navbar-light">
         <div className="container-fluid">
-      <Link to="/home" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
       
       <img src="https://fontmeme.com/permalink/220216/35ae46a0faf484314bf9ce88a61f3374.png" alt="bobs-burgers-tv-show-font" border="0" style={{
         paddingLeft:"25px",
@@ -21,7 +21,7 @@ function Navigation(props) {
 
 <ul className="nav bg-dark bg-gradient p-2 bg-opacity-85  justify-content-center">
 <li className="nav-item">
-      <Link to="/home"className="nav-link"><img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-burger-baking-and-bakery-icongeek26-flat-icongeek26.png" alt="" width="45" height="35" style={{
+      <Link to="/"className="nav-link"><img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-burger-baking-and-bakery-icongeek26-flat-icongeek26.png" alt="" width="45" height="35" style={{
         paddingRight:"15px"}} className="d-inline-block text-center"/>
       </Link>
     
