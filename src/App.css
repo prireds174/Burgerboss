@@ -3,7 +3,9 @@
   box-sizing: border-box;
 }
 
-
+body{
+  background-color: rgba(186, 218, 153, 0.756);
+}
 
 a {
   text-decoration: none;
