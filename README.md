@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+## Project Description 
+> A place where new or old, Bob's Burgers fans can come to learn more about the Character's. Users will see a list of Character's Image then click on image to see more details. Presently app only holds Characters, in the future I would like to implement quotes or notable dialogue on the Character's Page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link to the API you plan to use
+> https://bobs-burgers-api-ui.herokuapp.com/documentation#introduction
 
-## Available Scripts
+## Example data response you plan to use
+>Character 
+```
+ {
+  "id": 1,
+  "name": "\"Dottie Minerva\"",
+  "image": "https://bobsburgers-api.herokuapp.com/images/characters/1.jpg",
+  "gender": "Female",
+  "hairColor": "Blonde",
+  "occupation": "Student at Wagstaff School",
+  "firstEpisode": "\"The Kids Run the Restaurant\"",
+  "voicedBy": "Wendy Molyneux",
+  "url": "https://bobsburgers-api.herokuapp.com/characters/1"
+}
+```
+>Exterminators
+```
+{
+  "id": 15,
+  "name": "THE PEST PESTERER",
+  "image": "https://bobsburgers-api.herokuapp.com/images/pestControlTruck/15.jpg",
+  "season": 2,
+  "episode": "https://bobsburgers-api.herokuapp.com/episodes/15",
+  "url": "https://bobsburgers-api.herokuapp.com/pestControlTruck/3"
+}
+```
+## Visual of your component hierarchy
+![image](https://media.git.generalassemb.ly/user/40891/files/0b7c1580-8a79-11ec-8314-553ff8cb8473)
 
-In the project directory, you can run:
 
-### `npm start`
+## Wire Frames
+![image](https://media.git.generalassemb.ly/user/40891/files/3c5c4a80-8a79-11ec-97d1-829442ed4a49)
+![image](https://media.git.generalassemb.ly/user/40891/files/58f88280-8a79-11ec-9f17-2a383fe5e126)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories
+>As an Fan of  the show, I want a site/app I can see more in depth details of the Character, such as when they first appeared in the show and who voice the character.
+>As a User, I remember I saw this Character in another episode, but can't seem to remember. With the character details shown in the app, User can see the first episode Character may have been in.
 
-### `npm test`
+### MVP Goals
+Home page for use to interact with and direct to Character's page. Have Characters' page display assortment of Characters and link to Character's detail page. Character's page presents image of Character and details of Character.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Stretch Goals
+Add an Exterminator Page for User to interact
+Add Carousel of Characters' Snippets
+Add notable quote said by Characters
