@@ -61,7 +61,7 @@ nav.image{
   align-items: center;
   display: flex;
   justify-content:space-evenly;
-  background-color:black;
+  background-color:rgb(255, 255, 255);
 }
 
 .card-title {
@@ -84,6 +84,8 @@ nav.image{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .details-image {
@@ -103,7 +105,7 @@ nav.image{
 }
 
 .details h3 {
-  font-family: 'Noto Serif', Georgia, serif;
+  font-family: 'Amatic SC', cursive;
   font-style: italic;
   font-weight: 200;
 }

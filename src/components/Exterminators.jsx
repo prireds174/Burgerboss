@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from 'react-router-dom'
+import './style/Exterminator.css'
 
 function Exterminators(){
     const[exterminators, setExterminators] = useState([])
@@ -20,7 +21,7 @@ function Exterminators(){
 
     return(
         <div>
-            <h1>Exterminators</h1>
+            <h1 className="extertitle"><img src="https://fontmeme.com/permalink/220216/b854b847e5e0c98f211ace1f96675cc5.png" alt="bobs-burgers-tv-show-font" border="0"/></h1>
 <section className="container">
     {
     exterminators.map((exterminator) => {

@@ -1,12 +1,8 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-.charactitle {
+.extertitle {
     padding-top: 35px;
     padding-bottom: 25px;
-}
-
-h3.extname{
-    font-size: 1vw;
 }
